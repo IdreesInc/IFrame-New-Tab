@@ -1,6 +1,6 @@
 {
     "name": "IFrame New Tab",
-    "description": "Embed a fullscreen iframe into your new tab page",
+    "description": "Embed a fullscreen iframe into your new tab page.",
     "version": "1.0",
     "manifest_version": 2,
     "permissions": [
@@ -15,5 +15,8 @@
     "options_ui": {
         "page": "options.html",
         "open_in_tab": false
-      }
+    },
+    "icons": {
+        "128": "icon.png"
+    }
 }
